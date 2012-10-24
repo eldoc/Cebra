@@ -1,0 +1,41 @@
+*  {
+	font-family:Arial;
+	font-size:.95em;
+}
+
+h1 {
+	font-size:140%;
+}
+
+
+h2 {
+	font-size:110%;
+	border-bottom:solid 1px #efefef;
+	border-top:solid 1px #efefef;
+	padding:4px 0px;
+	margin-bottom:15px;
+}
+
+#ejemplo-1{
+	list-style-type:none;
+	padding:0;
+}
+
+
+#ejemplo-2 thead td {
+	font-weight:bold;
+}
+#ejemplo-2 {
+	border-spacing:0;
+	border-collapse:collapse;
+	width:100%;
+}
+#ejemplo-2 td {
+	padding: 3;
+}
+
+#ejemplo-2 tfoot td {
+	font-size:80%;
+	text-align:right;
+}
+

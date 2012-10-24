@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Cebra</title>
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery-cebra.js"></script>
+	<script>
+	$(function(){
+		$('#ejemplo-1').cebra();
+		$('#ejemplo-2').cebra({});
+	})
+	</script>
+</head>
+<body>
+	<h1>Cebra</h1>
+	<h2>Ejemplo con una lista</h2>
+	<ul id="ejemplo-1">
+	    <li>Inicio</li>
+	    <li>Productos</li>
+	    <li>Servicios</li>
+	    <li>Contacto</li>
+	</ul>
+	<h2>Ejemplo con una tabla</h2>
+	<table id="ejemplo-2" >
+		<thead>
+			<tr>
+				<td>Año</td><td>Album</td>
+			</tr>
+		</thead>
+			<tr><td>1978</td><td>Van Halen</td></tr>
+			<tr><td>1979</td><td>Van Halen II</td></tr>
+			<tr><td>1980</td><td>Women and Children First</td></tr>
+			<tr><td>1981</td><td>Fair Warning</td></tr>
+			<tr><td>1982</td><td>Diver Down</td></tr>
+			<tr><td>1984</td><td>1984</td></tr>
+			<tr><td>1986</td><td>5150</td></tr>
+			<tr><td>1988</td><td>OU812</td></tr>
+			<tr><td>1991</td><td>For Unlawful Carnal Knowledge</td></tr>
+			<tr><td>1995</td><td>Balance</td></tr>
+			<tr><td>1998</td><td>Van Halen III2</td></tr>
+			<tr><td>2012</td><td>A Different Kind of Truth</td></tr>
+		<tfoot>
+			<tr>
+				<td colspan="2">THEAD y TFOOT son ignorados por el plugin</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
